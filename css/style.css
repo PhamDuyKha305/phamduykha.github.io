@@ -1,0 +1,392 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+
+  padding: 30px 50px;
+}
+
+#nav-bar {
+  text-align: center;
+}
+
+#banner {
+  text-align: center;
+  color: #f7f7f7;
+
+  background-image: linear-gradient(hsla(0, 0%, 0%, 0.6), hsla(0, 0%, 0%, 0.6)),
+    url(/images/banner.jpg);
+  background-size: cover;
+
+  height: 600px;
+  width: auto;
+}
+
+/*thanh thong tin*/
+.ten span {
+  font-size: 10px;
+  color: hsla(0, 0%, 0%, 0.274);
+}
+
+.ten h1 {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.bar-icon {
+  padding: 0px 10px 0px 10px;
+  color: #05f3f3;
+}
+
+.thanh-bar {
+  color: #343a40;
+
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.info span {
+  font-weight: bold;
+  color: #495057;
+  line-height: 1.5;
+}
+
+/*vi tri 3 cot 2 hang*/
+#job-info .container {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  justify-content: space-evenly;
+  row-gap: 0px;
+  column-gap: 50px;
+}
+
+.container-chinh {
+  border: 1px solid #00000063;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ic-toolbox,
+.ic-pencil,
+.ic-telescope,
+.ic-mic,
+.ic-tools-2 {
+  transform: scale(3);
+  margin-right: 30px;
+  color: #868e96;
+}
+
+.insize-box h1 {
+  font-size: 34px;
+  padding-right: 10px;
+}
+
+.insize-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*kinh nghiem Hoc Van Hoat dong*/
+.kinh-nghiem-noi-dung span {
+  color: #fff;
+  background-color: #0574f3;
+  padding: 2px 6px;
+  border-radius: 5px;
+}
+
+.insize-box h1 {
+  font-size: 34px;
+  padding-right: 10px;
+}
+
+.noi-dung {
+  margin-bottom: 30px;
+
+  line-height: 1.6;
+}
+
+.kinh-nghiem-noi-dung {
+  margin-top: 60px;
+  color: #868e96;
+}
+
+/*So thich Ngon ngu Ky nang*/
+.so-thich {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
+
+.so-thich-icon {
+  width: 300px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.so-thich-noi-dung {
+  font-size: 15px;
+  text-align: center;
+  color: #868e96;
+
+  margin: 20px 0 0 0;
+}
+
+.hobby-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #339af0;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #339af0;
+  border-radius: 50%;
+}
+
+/*Ngon ngu*/
+.thanh-diem {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.thanh-diem-xam {
+  background: #292a2b;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.ngon-ngu {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  color: #868e96;
+}
+
+/*chung chi giai thuong*/
+.chung-chi {
+  display: grid;
+  grid-template-columns: 600px 600px;
+  justify-content: center;
+  row-gap: 25px;
+  padding-bottom: 30px;
+}
+
+.chung-chi-img {
+  width: 200px;
+  height: auto;
+}
+
+.chung-chi-noi-dung {
+  display: flex;
+  padding-left: 10px;
+}
+
+.chung-chi-test {
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+.chung-chi-test p {
+  color: #868e96;
+  line-height: 1.5;
+}
+
+.chung-chi-test h3 {
+  margin-bottom: 10px;
+  font-weight: 200;
+}
+
+.thu-2 {
+  border-left: 1px solid #d6c08d;
+}
+
+.thu-3 {
+  width: 1200px;
+  border-top: 1px solid #d6c08d;
+  padding-top: 25px;
+}
+
+/*du an*/
+.du-an {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+  column-gap: 20px;
+  padding-bottom: 50px;
+}
+
+.du-an-img {
+  height: auto;
+  width: 370px;
+}
+
+.du-an-tieu-de {
+  padding: 20px 10px 10px 10px;
+  text-align: center;
+}
+
+.du-an-tieu-de-2 {
+  padding: 20px 10px 20px 10px;
+  color: #868e96;
+  letter-spacing: 1px;
+}
+
+.table-1 {
+  height: 200px;
+}
+
+th {
+  width: 100px;
+  border-left: 3px solid hsl(0, 0%, 0%);
+}
+
+td {
+  border-right: 3px solid hsl(0, 0%, 0%);
+  font-size: 15px;
+}
+
+.du-an-tieu-de-2 span {
+  color: #fff;
+  background-color: #0574f3;
+  padding: 2px 6px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.du-an-tieu-de-2,
+.du-an-tieu-de {
+  border: 1px solid hsla(0, 0%, 0%, 0.247);
+}
+
+table,
+th,
+td {
+  color: #868e96;
+  line-height: 1.5;
+  border: 1px solid hsla(0, 0%, 0%, 0.247);
+  padding: 20px 10px 50px 10px;
+}
+
+.icon-user-1,
+.icon-lamp {
+  padding-left: 10px;
+}
+
+/*footer*/
+.footer {
+  list-style: none;
+
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px 20px 0px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #868e96;
+}
+
+.footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #339af0;
+  background-color: #339af0;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.footer-flex-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Tablets and under*/
+@media (max-width: 1300px) {
+  #job-info .container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  body {
+    align-items: center;
+    justify-content: center;
+    display: block;
+  }
+
+  .du-an {
+    grid-template-columns: 1fr;
+  }
+
+  .chung-chi-img {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 50px 0;
+  }
+
+  .chung-chi-noi-dung {
+    grid-template-columns: 1fr;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .chung-chi,
+  .certificate {
+    display: block;
+  }
+
+  .nav-bar-icon {
+    padding: 10px 0 10px 0;
+  }
+
+  .thu-2,
+  .thu-3 {
+    border: none;
+  }
+}
+
+/*Mobile*/
+@media (max-width: 900px) {
+  body {
+    align-items: center;
+    justify-content: center;
+    display: block;
+  }
+
+  #job-info .container {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .certificate,
+  .chung-chi-noi-dung {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+}
